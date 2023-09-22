@@ -1,0 +1,67 @@
+/* Colours sourced from https://github.com/sainnhe/gruvbox-material */
+/* Gruvbox Material Hard */
+
+/* Base Colours */
+@define-color ACCENT_BG rgba(29, 32, 33, 1);
+@define-color BG rgba(40, 40, 40, 1);
+@define-color HDR_BG rgba(50, 48, 47, 1);
+@define-color TERMINAL_BACKGROUND rgba(40, 40, 40, 1);
+@define-color SPOTIFY_PROTO_BG rgba(40, 40, 40, 1);
+@define-color TXT_BG rgba(40, 40, 40, 1);
+
+/* Alternate Base Colours */
+@define-color THEME_BASE_COLOUR rgba(29, 32, 33, 1);
+@define-color THEME_BASE_COLOUR_TRANS rgba(29, 32, 33, 0.5);
+@define-color THEME_BASE_COLOUR_ALT rgba(40, 40, 40, 1);
+@define-color THEME_BASE_COLOUR_ALT_TRANS rgba(40, 40, 40, 0.8);
+
+/* Buttons and Action Elements */
+@define-color BTN_BG rgba(60, 56, 54, 1);
+@define-color BTN_FG rgba(97, 10, 122, 1);
+@define-color MENU_BG rgba(18, 175, 175, 1);
+@define-color MENU_FG rgba(1, 191, 155, 1);
+@define-color HDR_BTN_BG rgba(102, 92, 84, 1);
+@define-color HDR_BTN_FG rgba(1, 191, 155, 1);
+
+/* Selection and Highlight Colours */
+@define-color SEL_BG rgba(124, 111, 100, 1);
+@define-color SEL_FG rgba(221, 199, 161, 1);
+
+/* Icons and Symbols */
+@define-color ICONS_ARCHDROID rgba(210, 240, 0, 1);
+@define-color ICONS_DARK rgba(69, 64, 61, 1);
+@define-color ICONS_LIGHT rgba(188, 142, 244, 1);
+@define-color ICONS_LIGHT_FOLDER rgba(169, 182, 101, 1);
+@define-color ICONS_MEDIUM rgba(169, 182, 101, 1);
+@define-color ICONS_SYMBOLIC_ACTION rgba(234, 105, 98, 1);
+@define-color ICONS_SYMBOLIC_PANEL rgba(137, 180, 130, 1);
+
+/* Text Colours */
+@define-color FG rgba(212, 190, 152, 1);
+@define-color HDR_FG rgba(221, 199, 161, 1);
+@define-color TERMINAL_ACCENT_COLOUR rgba(247, 40, 221, 1);
+@define-color TERMINAL_COLOUR0 rgba(102, 92, 84, 1);
+@define-color TERMINAL_COLOUR1 rgba(234, 105, 98, 1);
+@define-color TERMINAL_COLOUR10 rgba(169, 182, 101, 1);
+@define-color TERMINAL_COLOUR11 rgba(216, 166, 87, 1);
+@define-color TERMINAL_COLOUR12 rgba(125, 174, 163, 1);
+@define-color TERMINAL_COLOUR13 rgba(211, 134, 155, 1);
+@define-color TERMINAL_COLOUR14 rgba(137, 180, 130, 1);
+@define-color TERMINAL_COLOUR15 rgba(212, 190, 152, 1);
+@define-color TERMINAL_COLOUR2 rgba(169, 182, 101, 1);
+@define-color TERMINAL_COLOUR3 rgba(231, 138, 78, 1);
+@define-color TERMINAL_COLOUR4 rgba(125, 174, 163, 1);
+@define-color TERMINAL_COLOUR5 rgba(211, 134, 155, 1);
+@define-color TERMINAL_COLOUR6 rgba(137, 180, 130, 1);
+@define-color TERMINAL_COLOUR7 rgba(212, 190, 152, 1);
+@define-color TERMINAL_COLOUR8 rgba(146, 131, 116, 1);
+@define-color TERMINAL_COLOUR9 rgba(234, 105, 98, 1);
+@define-color TERMINAL_CURSOR rgba(168, 153, 132, 1);
+@define-color TERMINAL_FOREGROUND rgba(212, 190, 152, 1);
+@define-color TXT_FG rgba(210, 240, 0, 1);
+@define-color SPOTIFY_PROTO_FG rgba(212, 190, 152, 1);
+@define-color SPOTIFY_PROTO_SEL rgba(125, 174, 163, 1);
+@define-color SURUPLUS_GRADIENT1 rgba(33, 130, 110, 1);
+@define-color SURUPLUS_GRADIENT2 rgba(247, 40, 221, 1);
+@define-color WM_BORDER_FOCUS rgba(247, 40, 221, 1);
+@define-color WM_BORDER_UNFOCUS rgba(193, 88, 206, 1);
