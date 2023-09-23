@@ -43,3 +43,6 @@ Uses [waybar/scripts/playerctl.sh](waybar/scripts/playerctl.sh)
 - [Grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast) - For screenshots (`Print`)
 - [Swappy](https://github.com/jtheoof/swappy) - Screenshot editor
 - [Swaylock Effects](https://github.com/mortie/swaylock-effects) - Screen locker
+
+### Fonts
+- JetBrains Nerd Font
