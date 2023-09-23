@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "mod": "dock",
+    "mode": "dock",
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -29,8 +29,7 @@
     "custom/playerctl": {
 		"return-type": "json",
 		"max-length": 40,
-        // "exec": "python3 /home/beauthebeau/.config/waybar/scripts/playerctl.py",
-        "exec": "exec /home/beauthebeau/.config/waybar/scripts/playerctl.sh",
+        "exec": "exec ~/.config/waybar/scripts/playerctl.sh",
 		"on-click": "playerctl play-pause",
 		"on-right-click": "sys-notif media",
 		"on-scroll-up": "playerctl position 3+",
