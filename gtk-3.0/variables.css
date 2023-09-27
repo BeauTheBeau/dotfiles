@@ -1,6 +1,8 @@
 /* Colours sourced from https://github.com/sainnhe/gruvbox-material */
 /* Gruvbox Material Hard */
 
+@define-color TRANSPARENT rgba(0, 0, 0, 0.5);
+
 /* Base Colours */
 @define-color ACCENT_BG rgba(29, 32, 33, 1);
 @define-color BG rgba(40, 40, 40, 1);

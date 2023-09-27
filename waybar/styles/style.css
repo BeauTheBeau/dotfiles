@@ -1,0 +1,173 @@
+@import url("../../../.config/gtk-3.0/variables.css");
+
+* {
+    color: @FG;
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#waybar {
+    background: rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+
+tooltip {
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+
+#custom-playerctl {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+#custom-playerctl.next {
+    margin-left: 1px;
+    border-radius: 4px 20px 20px 4px;
+}
+
+#custom-playerctl.prev {
+    margin-right: 1px;
+    border-radius: 20px 4px 4px 20px;
+}
+
+#custom-playerctl.focused {
+    border-radius: 20px;
+}
+
+#custom-power_profile,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#temperature,
+#workspaces,
+#tray,
+#date,
+#custom-playerctl,
+#custom-applications,
+#backlight {
+    background: @THEME_BASE_COLOUR_ALT;
+    opacity: 0.8;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+#network {
+    border-radius: 20px;
+    border-left: 0;
+    border-right: 0;
+}
+
+#custom-applications {
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px 5px;
+}
+
+#temperature {
+    border-radius: 20px 4px 4px 20px;
+}
+
+#temperature.critical {
+    color: #eba0ac;
+}
+
+#backlight {
+    border-radius: 20px 0 0 20px;
+    padding-left: 7px;
+}
+
+#tray {
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 0 4px;
+}
+
+#workspaces {
+    border-radius: 20px 4px 4px 20px;
+    margin-left: 5px;
+}
+
+button {
+    all: unset;
+    background-color: transparent;
+    border: none;
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 8px;
+    border-top: 2px solid transparent;
+    transition: 0.3s;
+}
+
+
+
+button:hover {
+    background: @THEME_BASE_COLOUR;
+    color: @FG;
+}
+
+button.active {
+    background: @BTN_BG;
+}
+
+#custom-power_profile {
+    border-left: 0;
+    border-right: 0;
+}
+
+#window {
+    border-radius: 4px 20px 20px 4px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+#clock {
+    border-radius: 20px 4px 4px 20px;
+    border: 0;
+    transition: 0.3s;
+    padding: 0 12px;
+}
+
+#clock.date {
+    border-radius: 4px 20px 20px 4px;
+    margin-left: 1px;
+    transition: 0.3s;
+}
+
+#network {
+    border-radius: 4px 20px 20px 4px;
+    margin-right: 5px;
+    margin-left: 1px;
+}
+
+#bluetooth {
+    border-radius: 20px;
+    margin-right: 10px
+}
+
+#pulseaudio {
+    margin-left: 1px;
+    border-radius: 4px;
+}
+
+#pulseaudio.microphone {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0 20px 20px 0;
+    margin-right: 5px;
+    padding-right: 8px;
+}
+
