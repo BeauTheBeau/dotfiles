@@ -1,6 +1,20 @@
 # My dotfiles
 
----
+--------
+
+
+## Overview
+
+- **OS** Arch Linux
+- **Kernel** 6.5.3
+- **WM** Hyprland v0.29.1
+- **Terminal** Alacritty
+- **Bar** Swaybar
+- **Launcher** Wofi
+
+--------
+
+[Start Page](https://github.com/BeauTheBeau/start-page) | [Wallpapers from archlinux-wallpaper](https://roboticoverlords.org/wallpapers/)
 
 ## Waybar
 
@@ -46,3 +60,5 @@ Uses [waybar/scripts/playerctl.sh](waybar/scripts/playerctl.sh)
 
 ### Fonts
 - JetBrains Nerd Font
+
+
